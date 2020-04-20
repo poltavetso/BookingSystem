@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/fonts")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="site-content">
+        <header class="site-header">
+            <div class="container">
+                <a href="/Home/Index" id="branding">
+                    <img src="/Images/logo.png" alt="" class="logo">
+                    <div class="logo-copy">
+                        <h1 class="site-title">КІНОТЕАТР CINEMAK</h1>
+                        <small class="site-description">booking system</small>
+                    </div>
+                </a> <!-- #branding -->
+
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="/Home/Index">Головна</a></li>
+                        <li class="menu-item"><a href="#">Контакти</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+
+                <div class="mobile-navigation"></div>
+            </div>
+        </header>
+        @RenderBody()
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="widget">
+                            <h3 class="widget-title">About Us</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia tempore vitae mollitia nesciunt saepe cupiditate</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget">
+                            <h3 class="widget-title">Help Center</h3>
+                            <ul class="no-bullet">
+                                <li>Lorem ipsum dolor</li>
+                                <li>Sit amet consecture</li>
+                                <li>Dolorem respequem</li>
+                                <li>Invenore veritae</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget">
+                            <h3 class="widget-title">Join Us</h3>
+                            <ul class="no-bullet">
+                                <li>Lorem ipsum dolor</li>
+                                <li>Sit amet consecture</li>
+                                <li>Dolorem respequem</li>
+                                <li>Invenore veritae</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget">
+                            <h3 class="widget-title">Social Media</h3>
+                            <ul class="no-bullet">
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Google+</li>
+                                <li>Pinterest</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- .row -->
+
+                <div class="colophon">© 2020 Poltavec Olya. Всі права захищено.</div>
+            </div> <!-- .container -->
+
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
