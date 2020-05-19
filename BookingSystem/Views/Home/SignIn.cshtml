@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Увійти";
+}
+
+<main class="main-content">
+    <div class="container">
+		<div class="page">
+			@if (!string.IsNullOrEmpty(ViewBag.Message))
+			{
+				<div class="alert alert-danger" role="alert">
+					@ViewBag.Message
+				</div>
+			}
+			<form action="/Home/CheckLogin" method="post">
+				<div class="form-group">
+					<label for="login">Логін</label>
+					<input type="text" class="form-control" id="login" placeholder="Введіть логін">
+				</div>
+				<div class="form-group">
+					<label for="password">Пароль</label>
+					<input type="password" class="form-control" id="password" placeholder="">
+				</div>
+				<button type="submit" class="btn btn-primary">Увійти</button>
+			</form>
+
+		</div>
+    </div> <!-- .container -->
+</main>
