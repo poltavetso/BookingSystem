@@ -5,25 +5,43 @@ using System.Web;
 
 namespace BookingSystem.Models
 {
-	public class Authorization
+	public class UserSystem
 	{
-		private static Authorization _instance;
+		private static UserSystem _instance;
+		private static IEnumerable<User> _users;
+		private static UserContext _userContext;
+		private static IEnumerable<User> Users => _users ?? (_users = UserContext.Users);
+		private static UserContext UserContext => _userContext ?? (_userContext = new UserContext());
 
-		private static IEnumerable<User> Users => (new UserContext().Users) ?? throw new NullReferenceException(nameof(IEnumerable<User>));
-
-		private Authorization()
+		private UserSystem()
 		{
-
+			
 		}
 
-		public static Authorization GetInstance()
+		public static UserSystem GetInstance()
 		{
-			return _instance ?? (_instance = new Authorization());
+			return _instance ?? (_instance = new UserSystem());
 		}
 
-		public bool CheckUser(string login, string password)
+		public User GetUser(string login, string password)
 		{
-			return Users.Any(o => o.Login == login && o.Password == password);
+			return Users.FirstOrDefault(o => o.Login == login && o.Password == password);
 		}
-    }
+
+		public bool CheckLogin(string login)
+		{
+			return Users.Any(o => o.Login == login);
+		}
+
+		public bool CheckEmail(string email)
+		{
+			return Users.Any(o => o.Email == email);
+		}
+
+		public bool NewUsers(User user)
+		{
+			UserContext.Users.Add(user);
+			return UserContext.SaveChanges() > 0;
+		}
+	}
 }

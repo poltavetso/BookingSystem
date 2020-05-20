@@ -89,3 +89,4 @@ E:\Projects\Olya\BookingSystem\BookingSystem\bin\EntityFramework.xml
 E:\Projects\Olya\BookingSystem\BookingSystem\bin\EntityFramework.SqlServer.xml
 E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.Migrations.InitialCreate.resources
 E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csproj.GenerateResource.cache
+E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.Migrations.Users.resources

@@ -4,28 +4,44 @@
 
 <main class="main-content">
     <div class="container">
-        <div class="page">
-
-			<form>
+		<div class="page">
+			@if (Session["ErrorMessage"] != null)
+			{
+				<div class="alert alert-danger" role="alert">
+					@Session["ErrorMessage"]
+				</div>
+			}
+			else if (Session["Message"] != null)
+			{
+				<div class="alert alert-info" role="alert">
+					@Session["Message"]
+				</div>
+			}
+			<form action="@Url.Action("GoRegistration", "Home")" method="post">
 				<div class="form-group">
 					<label for="login">Логін</label>
-					<input type="text" class="form-control" id="login" placeholder="Введіть логін">
+					<input type="text" class="form-control" required="" name="login" id="login" value="@Session["Login"]" placeholder="Введіть логін">
 				</div>
 				<div class="form-group">
 					<label for="email">Email</label>
-					<input type="text" class="form-control" id="email" placeholder="Введіть Email">
+					<input type="text" class="form-control" required="" name="email" id="email" value="@Session["Email"]" placeholder="Введіть Email">
 				</div>
 				<div class="form-group">
 					<label for="password">Пароль</label>
-					<input type="password" class="form-control" id="password" placeholder="">
+					<input type="password" class="form-control" required="" name="password" id="password" placeholder="">
 				</div>
 				<div class="form-group">
 					<label for="password2">Повторій пароль</label>
-					<input type="password" class="form-control" id="password2" placeholder="">
+					<input type="password" class="form-control" required="" name="password2" id="password2" placeholder="">
 				</div>
 				<button type="submit" class="btn btn-primary">Реєстрація</button>
 			</form>
-
-        </div>
+			@{
+				Session["ErrorMessage"] = null;
+				Session["Login"] = null;
+				Session["Email"] = null;
+				Session["Message"] = null;
+			}
+		</div>
     </div> <!-- .container -->
 </main>

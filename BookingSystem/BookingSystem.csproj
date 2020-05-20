@@ -137,6 +137,10 @@
     <Compile Include="Migrations\202005191802086_InitialCreate.designer.cs">
       <DependentUpon>202005191802086_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005202029518_Users.cs" />
+    <Compile Include="Migrations\202005202029518_Users.designer.cs">
+      <DependentUpon>202005202029518_Users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Authorization.cs" />
     <Compile Include="Models\User.cs" />
@@ -332,6 +336,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202005191802086_InitialCreate.resx">
       <DependentUpon>202005191802086_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005202029518_Users.resx">
+      <DependentUpon>202005202029518_Users.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

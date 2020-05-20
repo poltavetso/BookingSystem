@@ -5,20 +5,21 @@
 <main class="main-content">
     <div class="container">
 		<div class="page">
-			@if (!string.IsNullOrEmpty(ViewBag.Message))
+			@if (Session["ErrorMessage"] != null)
 			{
 				<div class="alert alert-danger" role="alert">
-					@ViewBag.Message
+					@Session["ErrorMessage"]
 				</div>
 			}
-			<form action="/Home/CheckLogin" method="post">
+			@{ Session["ErrorMessage"] = null; }
+			<form action="@Url.Action("CheckLogin", "Home")" method="post">
 				<div class="form-group">
 					<label for="login">Логін</label>
-					<input type="text" class="form-control" id="login" placeholder="Введіть логін">
+					<input type="text" class="form-control" id="login" name="login" required="" placeholder="Введіть логін">
 				</div>
 				<div class="form-group">
 					<label for="password">Пароль</label>
-					<input type="password" class="form-control" id="password" placeholder="">
+					<input type="password" class="form-control" name="password" required="" id="password" placeholder="">
 				</div>
 				<button type="submit" class="btn btn-primary">Увійти</button>
 			</form>
