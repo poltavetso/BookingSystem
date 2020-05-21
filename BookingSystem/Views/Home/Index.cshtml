@@ -1,5 +1,30 @@
-﻿@{
+﻿@using System.Globalization
+@{
     ViewBag.Title = "Home Page";
+
+
+	string GetDateText(DateTime date)
+	{
+		string result = date.Day.ToString();
+		result += " " + date.ToString("MMMM", new CultureInfo("uk-UA")).ToUpper();
+		if (date.Date == DateTime.Now.Date)
+		{
+			result += " СЬОГОДНІ";
+		}
+        else if (date.AddDays(-1).Date == DateTime.Now.Date)
+        {
+	        result += " ЗАВТРА";
+        }
+        else
+        {
+	        result += " " + date.ToString("dddd", new CultureInfo("uk-UA")).ToUpper();
+        }
+
+		return result;
+	}
+
+
+	var currentDate = DateTime.Now;
 }
 
     <main class="main-content">
@@ -10,13 +35,13 @@
                 </div>
 
                 <div class="row">
-                    <div class="col"><button type="button" class="btn btn-outline-primary" disabled>22 ЛЮТОГО СЬОГОДНІ</button></div>
-                    <div class="col"><button type="button" class="btn btn-outline-secondary">23 ЛЮТОГО ЗАВТРА</button></div>
-                    <div class="col"><button type="button" class="btn btn-outline-secondary">24 ЛЮТОГО ПОНЕДІЛОК</button></div>
-                    <div class="col"><button type="button" class="btn btn-outline-secondary">25 ЛЮТОГО ВІВТОРОК</button></div>
-                    <div class="col"><button type="button" class="btn btn-outline-secondary">26 ЛЮТОГО СЕРЕДА</button></div>
-                    <div class="col"><button type="button" class="btn btn-outline-secondary">27 ЛЮТОГО ЧЕТВЕР</button></div>
-                    <div class="col"><button type="button" class="btn btn-outline-secondary">28 ЛЮТОГО П'ЯТНИЦЯ</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-primary" disabled>@GetDateText(DateTime.Now)</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-secondary">@GetDateText(DateTime.Now.AddDays(1))</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-secondary">@GetDateText(DateTime.Now.AddDays(2))</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-secondary">@GetDateText(DateTime.Now.AddDays(3))</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-secondary">@GetDateText(DateTime.Now.AddDays(4))</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-secondary">@GetDateText(DateTime.Now.AddDays(5))</button></div>
+                    <div class="col"><button type="button" class="btn btn-outline-secondary">@GetDateText(DateTime.Now.AddDays(6))</button></div>
                 </div>
                 <div class="row"><br /></div>
                 <div class="row">

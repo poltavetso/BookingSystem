@@ -10,8 +10,8 @@ namespace BookingSystem.Models
 		private static UserSystem _instance;
 		private static IEnumerable<User> _users;
 		private static UserContext _userContext;
-		private static IEnumerable<User> Users => _users ?? (_users = UserContext.Users);
-		private static UserContext UserContext => _userContext ?? (_userContext = new UserContext());
+		public static IEnumerable<User> Users => _users ?? (_users = UserContext.Users);
+		public static UserContext UserContext => _userContext ?? (_userContext = new UserContext());
 
 		private UserSystem()
 		{

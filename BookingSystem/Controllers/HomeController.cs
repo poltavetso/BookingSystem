@@ -96,5 +96,16 @@ namespace BookingSystem.Controllers
 			return RedirectToAction("Index");
 		}
 
+		public void Main()
+		{
+			var newUser = new User();
+
+			var userSystem = UserSystem.GetInstance();
+			userSystem.NewUsers(newUser);
+
+
+			var userSystem2 = UserSystem.GetInstance();
+			userSystem2.NewUsers(newUser);
+		}
 	}
 }
