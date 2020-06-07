@@ -79,7 +79,6 @@ E:\Projects\Olya\BookingSystem\BookingSystem\bin\ru\System.Web.Razor.resources.d
 E:\Projects\Olya\BookingSystem\BookingSystem\bin\ru\System.Web.WebPages.resources.dll
 E:\Projects\Olya\BookingSystem\BookingSystem\bin\ru\System.Web.WebPages.Deployment.resources.dll
 E:\Projects\Olya\BookingSystem\BookingSystem\bin\ru\System.Web.WebPages.Razor.resources.dll
-E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csprojAssemblyReference.cache
 E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csproj.CopyComplete
 E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.dll
 E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.pdb

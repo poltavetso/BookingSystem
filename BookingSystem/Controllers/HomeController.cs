@@ -61,7 +61,7 @@ namespace BookingSystem.Controllers
 				Session["Login"] = login;
 				Session["Email"] = email;
 			}
-			else if (password != password2)
+			else if (!UserSystem.IsEqualPasswords(password, password2))
 			{
 				Session["ErrorMessage"] = "Паролі не співпадають!";
 				Session["Login"] = login;
