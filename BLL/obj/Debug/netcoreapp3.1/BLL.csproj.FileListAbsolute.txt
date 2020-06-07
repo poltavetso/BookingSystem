@@ -1,0 +1,13 @@
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\Projects\Olya\BookingSystem\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+E:\Projects\Olya\BookingSystem\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+E:\Projects\Olya\BookingSystem\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+E:\Projects\Olya\BookingSystem\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+E:\Projects\Olya\BookingSystem\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+E:\Projects\Olya\BookingSystem\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\CCL.dll
+E:\Projects\Olya\BookingSystem\BLL\bin\Debug\netcoreapp3.1\CCL.pdb

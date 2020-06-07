@@ -91,7 +91,7 @@ namespace BookingSystem.Controllers
 			Session["User"] = null;
 			return RedirectToAction("Index");
 		}
-		public ActionResult Profile()
+		public new ActionResult Profile()
 		{
 			return RedirectToAction("Index");
 		}

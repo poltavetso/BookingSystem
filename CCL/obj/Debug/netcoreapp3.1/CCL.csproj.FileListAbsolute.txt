@@ -1,0 +1,7 @@
+E:\Projects\Olya\BookingSystem\CCL\bin\Debug\netcoreapp3.1\CCL.deps.json
+E:\Projects\Olya\BookingSystem\CCL\bin\Debug\netcoreapp3.1\CCL.dll
+E:\Projects\Olya\BookingSystem\CCL\bin\Debug\netcoreapp3.1\CCL.pdb
+E:\Projects\Olya\BookingSystem\CCL\obj\Debug\netcoreapp3.1\CCL.AssemblyInfoInputs.cache
+E:\Projects\Olya\BookingSystem\CCL\obj\Debug\netcoreapp3.1\CCL.AssemblyInfo.cs
+E:\Projects\Olya\BookingSystem\CCL\obj\Debug\netcoreapp3.1\CCL.dll
+E:\Projects\Olya\BookingSystem\CCL\obj\Debug\netcoreapp3.1\CCL.pdb

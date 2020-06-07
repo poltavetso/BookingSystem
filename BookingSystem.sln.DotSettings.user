@@ -1,11 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=623f9c69_002D3d4b_002D4da9_002Da2b7_002D2445b1685e81/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Create_InputUsersInstance_CalledAddMethodOfDBSetWithUsersInstance" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
+    &lt;Or&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;xUnit::AE0DB1FD-7D45-4FD1-A337-FA6CDB9B11A3::.NETCoreApp,Version=v3.1::DAL.Tests.BaseRepositoryUnitTests.Create_InputUsersInstance_CalledAddMethodOfDBSetWithUsersInstance&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;xUnit::AE0DB1FD-7D45-4FD1-A337-FA6CDB9B11A3::.NETCoreApp,Version=v3.1::DAL.Tests.BaseRepositoryUnitTests.Delete_InputId_CalledFindAndRemoveMethodsOfDBSetWithCorrectArg&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+    &lt;/Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::AE0DB1FD-7D45-4FD1-A337-FA6CDB9B11A3::.NETCoreApp,Version=v3.1::DAL.Tests.BaseRepositoryUnitTests.Create_InputUsersInstance_CalledAddMethodOfDBSetWithUsersInstance&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::AE0DB1FD-7D45-4FD1-A337-FA6CDB9B11A3::.NETCoreApp,Version=v3.1::DAL.Tests.BaseRepositoryUnitTests.Delete_InputId_CalledFindAndRemoveMethodsOfDBSetWithCorrectArg&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::220940F7-3788-412D-8E30-057F87CBF8BC::.NETCoreApp,Version=v3.1::BLL.Tests.UserServiceTests&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
