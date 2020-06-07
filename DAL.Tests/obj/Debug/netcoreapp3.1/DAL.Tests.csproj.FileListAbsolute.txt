@@ -111,3 +111,5 @@ E:\Projects\Olya\BookingSystem\DAL.Tests\bin\Debug\netcoreapp3.1\System.Diagnost
 E:\Projects\Olya\BookingSystem\DAL.Tests\bin\Debug\netcoreapp3.1\DAL.dll
 E:\Projects\Olya\BookingSystem\DAL.Tests\bin\Debug\netcoreapp3.1\DAL.pdb
 E:\Projects\Olya\BookingSystem\DAL.Tests\obj\Debug\netcoreapp3.1\DAL.Tests.csprojAssemblyReference.cache
+E:\Projects\Olya\BookingSystem\DAL.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\Projects\Olya\BookingSystem\DAL.Tests\bin\Debug\netcoreapp3.1\Moq.dll

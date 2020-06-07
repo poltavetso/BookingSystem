@@ -181,4 +181,3 @@ D:\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csproj.GenerateResource.c
 D:\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csproj.CopyComplete
 D:\BookingSystem\BookingSystem\obj\Debug\BookingSystem.dll
 D:\BookingSystem\BookingSystem\obj\Debug\BookingSystem.pdb
-E:\Projects\Olya\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csprojAssemblyReference.cache

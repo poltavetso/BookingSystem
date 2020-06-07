@@ -5,4 +5,3 @@ E:\Projects\Olya\BookingSystem\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
 E:\Projects\Olya\BookingSystem\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
 E:\Projects\Olya\BookingSystem\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 E:\Projects\Olya\BookingSystem\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
-E:\Projects\Olya\BookingSystem\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
